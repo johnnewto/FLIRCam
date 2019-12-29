@@ -1,10 +1,8 @@
 {
-  "Notebook": {
-    "Export to modules": "/export",
-    "Convert to html": "/export2html",
-    "Show doc": "/showdoc",
-    "Test functions": "/test",
-    "Core functions": "/core",
-    "Command line functions": "/cli"
+  "FLIRCam": {
+    "Overview": "/",
+    "Example Use of USB stream and Sockets": "/Example_Sockets_and_USB_Streaming",
+    "Core": "/core",
+    "FLIR_video_stream": "/USB_video_stream"
   }
 }

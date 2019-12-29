@@ -7,24 +7,18 @@ entries:
 - folders:
   - folderitems:
     - output: web,pdf
-      title: Export to modules
-      url: /export.html
+      title: Overview
+      url: /
     - output: web,pdf
-      title: Convert to html
-      url: /export2html.html
+      title: Example Use of USB stream and Sockets
+      url: /Example_Sockets_and_USB_Streaming
     - output: web,pdf
-      title: Show doc
-      url: /showdoc.html
+      title: Core
+      url: /core
     - output: web,pdf
-      title: Test functions
-      url: /test.html
-    - output: web,pdf
-      title: Core functions
-      url: /core.html
-    - output: web,pdf
-      title: Command line functions
-      url: /cli.html
+      title: FLIR_video_stream
+      url: /USB_video_stream
     output: web
-    title: Notebook
+    title: FLIRCam
   output: web
   title: Sidebar
