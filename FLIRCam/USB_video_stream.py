@@ -116,7 +116,7 @@ class USBVideoStream:
                         self.stopped = True
 
             else:
-                time.sleep(0.1)  # Rest for 10ms, we have a full queue
+                time.sleep(0.1)  # Rest for 100ms, we have a full queue
 
         # self.stream.release()
         for cam in self.camlist:
@@ -127,6 +127,13 @@ class USBVideoStream:
     def read(self):
         """Return next frame in the queue"""
         return self.Q.get()
+
+    def read_wait(self):
+        """Wait for and return next frame in the queue"""
+        try:
+            return self.Q.get(block=True,timeout=1)
+        except:
+            return None
 
     # Insufficient to have consumer use while(more()) which does
     # not take into account if the producer has reached end of
