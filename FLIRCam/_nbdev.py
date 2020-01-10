@@ -2,12 +2,14 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"show_img": "80_core.ipynb",
-         "plot_images": "80_core.ipynb",
-         "USBVideoStream": "81_USB_video_stream.ipynb"}
+index = {"show_img": "50_core.ipynb",
+         "plot_images": "50_core.ipynb",
+         "USBVideoStream": "51_USB_video_stream.ipynb",
+         "Camera": "52_USB_camera.ipynb"}
 
 modules = ["core.py",
-           "USB_video_stream.py"]
+           "USB_video_stream.py",
+           "USB_camera.py"]
 
 git_url = "https://github.com/johnnewto/FLIRCam/tree/master/"
 

@@ -17,7 +17,10 @@ entries:
       url: /core
     - output: web,pdf
       title: FLIR_video_stream
-      url: /USB_video_stream
+      url: /USB_camera
+    - output: web,pdf
+      title: Title
+      url: /FlaskApp
     output: web
     title: FLIRCam
   output: web

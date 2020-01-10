@@ -3,6 +3,7 @@
     "Overview": "/",
     "Example Use of USB stream and Sockets": "/Example_Sockets_and_USB_Streaming",
     "Core": "/core",
-    "FLIR_video_stream": "/USB_video_stream"
+    "FLIR_video_stream": "/USB_camera",
+    "Title": "/FlaskApp"
   }
 }
